@@ -653,17 +653,8 @@ ingress:
       - wordpress.janowicz.cloud
     secretName: certificate-letsencrypt-wordpress
   
-  extraRules:
-  - host: 
-      - wordpress.janowicz.cloud
-    http:
-      path: /
-      backend:
-        service:
-          name: wordpress
-          port:
-            name: http
-
+  extraRules: []
+  
 secondaryIngress:
   ## @param secondaryIngress.enabled Enable ingress record generation for WordPress
   ##
