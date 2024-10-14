@@ -620,12 +620,7 @@ ingress:
     nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
   hostname: wordpress.janowicz.cloud
   tls: true
-  extraPaths:
-  - path: /
-    pathType: Prefix
-    backend:
-      serviceName: wordpress
-      servicePort: http
+
   extraTls:
   - hosts:
       - wordpress.janowicz.cloud
