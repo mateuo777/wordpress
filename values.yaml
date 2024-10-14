@@ -622,6 +622,7 @@ ingress:
   tls: true
   extraPaths:
   - path: /
+    pathType: Prefix
     backend:
       serviceName: wordpress
       servicePort: http
