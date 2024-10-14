@@ -641,8 +641,8 @@ ingress:
          name: wordpress
          port:
            name: service
-   extraTls:
-   - hosts:
+   - extraTls:
+     hosts:
        - wordpress.janowicz.cloud
      secretName: certificate-letsencrypt-wordpress
      
