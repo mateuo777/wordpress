@@ -109,7 +109,7 @@ image:
 
 ## @param wordpressUsername WordPress username
 ##
-wordpressUsername: user
+wordpressUsername: witchen
 ## @param wordpressPassword WordPress user password
 ## Defaults to a random 10-character alphanumeric string if not set
 ##
@@ -118,7 +118,7 @@ wordpressPassword: ""
 ## NOTE: Must contain key `wordpress-password`
 ## NOTE: When it's set, the `wordpressPassword` parameter is ignored
 ##
-existingSecret: ""
+existingSecret: wordpress
 ## @param wordpressEmail WordPress user email
 ##
 wordpressEmail: user@example.com
