@@ -628,7 +628,7 @@ ingress:
   hosts:
     - wordpress.janowicz.cloud
   ## Extra paths to prepend to every host configuration. This is useful when working with annotation based services.
-  extraPaths:
+  extraRules:
   # - path: /
   #   backend:
   #     serviceName: ssl-redirect
