@@ -121,7 +121,7 @@ wordpressPassword: ""
 existingSecret: wordpress
 ## @param wordpressEmail WordPress user email
 ##
-wordpressEmail: user@example.com
+wordpressEmail: mateusz@janowicz.cloud
 ## @param wordpressFirstName WordPress user first name
 ##
 wordpressFirstName: FirstName
