@@ -641,10 +641,10 @@ ingress:
          name: wordpress
          port:
            name: service
-   extraTls:
-   hosts:
-    - wordpress.janowicz.cloud
-   secretName: certificate-letsencrypt-wordpress
+   - tls:
+     hosts:
+      - wordpress.janowicz.cloud
+     secretName: certificate-letsencrypt-wordpress
      
 secondaryIngress:
   ## @param secondaryIngress.enabled Enable ingress record generation for WordPress
