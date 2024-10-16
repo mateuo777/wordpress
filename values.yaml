@@ -618,13 +618,13 @@ ingress:
   ingressClassName: nginx
   annotations:
     nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
-  hostname: wordpress.janowicz.cloud
+  hostname: witchen.art
   tls: true
 
   extraTls:
   - hosts:
-      - wordpress.janowicz.cloud
-    secretName: certificate-letsencrypt-wordpress
+      - witchen.art
+    secretName: certificate-letsencrypt-witchen
     
 secondaryIngress:
   ## @param secondaryIngress.enabled Enable ingress record generation for WordPress
