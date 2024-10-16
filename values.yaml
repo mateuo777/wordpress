@@ -486,7 +486,7 @@ livenessProbe:
 readinessProbe:
   enabled: true
   httpGet:
-    path: /wp-login.php
+    path: /97203550
     port: '{{ .Values.wordpressScheme }}'
     scheme: '{{ .Values.wordpressScheme | upper }}'
     ## If using an HTTPS-terminating load-balancer, the probes may need to behave
